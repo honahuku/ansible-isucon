@@ -17,7 +17,7 @@ apt-get install -y ansible git
 git clone https://github.com/matsuu/ansible-isucon.git
 cd ansible-isucon/isucon11-qualifier
 ${EDITOR} standlalone.hosts
-ansible-playbook -i standalone.hosts site.yml
+ansible-playbook -i inventory.yaml site.yml
 ```
 
 Local:

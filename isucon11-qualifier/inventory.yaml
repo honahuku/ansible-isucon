@@ -1,0 +1,9 @@
+all:
+  children:
+    standalone:
+      hosts:
+        # 127.0.0.1:
+        # 127.0.0.1:
+        # 127.0.0.1:
+      vars:
+        ansible_user: ubuntu
